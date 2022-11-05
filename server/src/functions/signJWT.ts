@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import config from "../config/config";
-import { IUser } from "../types/model.type";
+import { IUser } from "../types/model";
 
 const signJWT = (
   user: IUser,
